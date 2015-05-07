@@ -81,4 +81,4 @@ export REPORT_FILE="$TODO_DIR/Todo/report.txt"
 # priority hiding, context hiding, and project hiding. That is,
 # just before the list output is displayed.
 #
-export TODOTXT_FINAL_FILTER='$HOME/Dropbox/dotfiles/colorSymbols.txt'
+export TODOTXT_FINAL_FILTER='$HOME/Dropbox/dotfiles/todo_colorsymbols'
