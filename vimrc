@@ -64,7 +64,6 @@ Plug 'https://github.com/bling/vim-airline.git'
 Plug 'https://github.com/junegunn/seoul256.vim.git'
 Plug 'https://github.com/kien/ctrlp.vim.git'
 Plug 'https://github.com/lervag/vim-latex.git' " simple latex plugin
-Plug 'https://github.com/nathanaelkane/vim-indent-guides.git'
 Plug 'https://github.com/scrooloose/nerdtree.git'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/tpope/vim-sensible.git'
@@ -77,7 +76,7 @@ Plug 'vim-scripts/closetag.vim'
 Plug 'yonchu/accelerated-smooth-scroll'
 Plug 'airblade/vim-gitgutter'
 Plug 'Chiel92/vim-autoformat'
-Plug 'nathanaelkane/vim-indent-guides'
+Plug 'Yggdroot/indentLine'
 Plug 'Valloric/MatchTagAlways'
 Plug 'tpope/vim-commentary' " Better commenting
 
@@ -104,8 +103,6 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " UltiSnipsEdit split window
 let g:UltiSnipsEditSplit="vertical"
-
-
 
 " Syntactical arguments
 let g:syntastic_scss_checkers = ['scss_lint']
